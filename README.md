@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Resonant — AI Voice Agent for Restaurants</title>
+<title>Resoassit — AI Voice Agent for Restaurants</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
 <style>
   :root {
@@ -12,7 +12,7 @@
     --pink:    #E91E8C;
     --purple:  #7B2FBE;
     --deep:    #2D1B69;
-    --light:   #F5F3FF;
+    --light:   #F5F3FF; ki
     --white:   #FFFFFF;
     --grad: linear-gradient(135deg, var(--orange) 0%, var(--coral) 35%, var(--pink) 65%, var(--purple) 100%);
     --grad-soft: linear-gradient(135deg, #fff0eb 0%, #fce4f5 50%, #ede0ff 100%);
