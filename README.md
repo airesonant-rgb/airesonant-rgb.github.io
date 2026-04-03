@@ -1,9 +1,8 @@
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ResoAssist — AI Platform for Restaurants</title>
+<title>Resoassit — AI Platform for Restaurants</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
 <style>
@@ -327,14 +326,14 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-logo">ResoAssist</div>
+  <div class="nav-logo">Resoassit</div>
   <ul class="nav-links">
     <li><a href="#features">Features</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#faq">FAQ</a></li>
   </ul>
-  <a href="https://buy.stripe.com/fZu28r71gbeC9c3bSA08g00" target="_blank" class="nav-cta">Book a Demo</a>
+  <a href="#signup" class="nav-cta">Book a Demo</a>
 </nav>
 
 <!-- HERO -->
@@ -345,9 +344,9 @@
   <div class="hero-content fade-up visible">
     <div class="hero-badge"><span class="badge-dot"></span> AI Restaurant Platform · Early Access Now Open</div>
     <h1>Your restaurant phone,<br><em>answered perfectly.</em><br><span class="outline-text">Every time.</span></h1>
-    <p class="hero-sub">ResoAssist is the AI platform built for restaurants — starting with a voice agent that handles every call, books reservations, and remembers your regulars automatically.</p>
+    <p class="hero-sub">Resoassit is the AI platform built for restaurants — starting with a voice agent that handles every call, books reservations, and remembers your regulars automatically.</p>
     <div class="hero-ctas">
-      <a href="https://buy.stripe.com/fZu28r71gbeC9c3bSA08g00" target="_blank" class="btn-primary">Book a Free Demo →</a>
+      <a href="#signup" class="btn-primary">Book a Free Demo →</a>
       <a href="#roadmap" class="btn-secondary">See the Roadmap</a>
     </div>
     <div class="hero-stats">
@@ -362,7 +361,7 @@
       <div class="phone-notch"></div>
       <div class="phone-screen">
         <div class="call-avatar">🎙️</div>
-        <div class="call-name">ResoAssist AI</div>
+        <div class="call-name">Resoassit AI</div>
         <div class="call-status">Connected · 0:38</div>
         <div class="wave-bars">
           <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
@@ -430,7 +429,7 @@
       <div class="fade-up">
         <span class="section-tag">The Solution</span>
         <h2 class="section-title">Your AI host, <em>always on call</em></h2>
-        <p class="section-sub">ResoAssist connects to your restaurant's landline and handles every call automatically — from bookings to takeaway orders, in any language, any time of day.</p>
+        <p class="section-sub">Resoassit connects to your restaurant's landline and handles every call automatically — from bookings to takeaway orders, in any language, any time of day.</p>
         <ul class="solution-list">
           <li>Answers every call instantly — no hold time, no voicemail</li>
           <li>Books reservations directly into your calendar</li>
@@ -439,7 +438,7 @@
           <li>Remembers your regulars and their preferences</li>
           <li>Sends SMS and email confirmations automatically</li>
         </ul>
-        <a href="https://buy.stripe.com/fZu28r71gbeC9c3bSA08g00" target="_blank" class="btn-primary" style="margin-top:36px">Get Early Access →</a>
+        <a href="#signup" class="btn-primary" style="margin-top:36px">Get Early Access →</a>
       </div>
       <div class="solution-visual fade-up fade-up-delay-2">
         <div class="sol-card">
@@ -447,7 +446,7 @@
             <div class="sol-dot">📞</div>
             <div class="sol-step-text">
               <h4>Customer Calls Your Restaurant</h4>
-              <p>Your existing landline is connected to ResoAssist. The AI picks up in under 2 seconds, every time.</p>
+              <p>Your existing landline is connected to Resoassit. The AI picks up in under 2 seconds, every time.</p>
             </div>
           </div>
           <div class="sol-connector"></div>
@@ -455,7 +454,7 @@
             <div class="sol-dot">🧠</div>
             <div class="sol-step-text">
               <h4>AI Understands the Intent</h4>
-              <p>ResoAssist detects language, greets the guest warmly, and handles reservations, orders or questions.</p>
+              <p>Resoassit detects language, greets the guest warmly, and handles reservations, orders or questions.</p>
             </div>
           </div>
           <div class="sol-connector"></div>
@@ -545,7 +544,7 @@
       </div>
       <div class="step-item fade-up fade-up-delay-2">
         <div class="step-circle">⚙️</div>
-        <h4>2. We Configure ResoAssist</h4>
+        <h4>2. We Configure Resoassit</h4>
         <p>Our team trains the AI on your restaurant's voice, menu, policies and preferred tone of service.</p>
       </div>
       <div class="step-item fade-up fade-up-delay-3">
@@ -556,7 +555,7 @@
       <div class="step-item fade-up fade-up-delay-4">
         <div class="step-circle">🚀</div>
         <h4>4. Full Launch</h4>
-        <p>ResoAssist goes fully live. Your phone is always answered. Your team is free. Revenue grows.</p>
+        <p>Resoassit goes fully live. Your phone is always answered. Your team is free. Revenue grows.</p>
       </div>
     </div>
   </div>
@@ -569,7 +568,7 @@
       <div class="fade-up">
         <span class="section-tag">Benefits</span>
         <h2 class="section-title">More bookings. Less <em>chaos.</em></h2>
-        <p class="section-sub">ResoAssist doesn't replace your team — it frees them to do what they do best: delivering an exceptional guest experience.</p>
+        <p class="section-sub">Resoassit doesn't replace your team — it frees them to do what they do best: delivering an exceptional guest experience.</p>
         <div class="benefit-items">
           <div class="benefit-row">
             <div class="benefit-icon">📈</div>
@@ -622,7 +621,7 @@
     <div class="demo-inner">
       <div class="fade-up">
         <span class="section-tag">Live Demo</span>
-        <h2 class="section-title" style="color:var(--cream)">Hear ResoAssist <em>in action</em></h2>
+        <h2 class="section-title" style="color:var(--cream)">Hear Resoassit <em>in action</em></h2>
         <p class="section-sub" style="color:#A89E94;margin:0 auto">Book a 20-minute walkthrough with our team to see it configured live for your restaurant.</p>
       </div>
       <div class="demo-visual fade-up fade-up-delay-2">
@@ -635,7 +634,7 @@
           <div class="chat-msg ai">Perfect, Sarah! Vegetarian noted. You'll receive an SMS confirmation shortly. Anything else?</div>
           <div class="chat-typing"><div class="typing-dot"></div><div class="typing-dot"></div><div class="typing-dot"></div></div>
         </div>
-        <a href="https://buy.stripe.com/fZu28r71gbeC9c3bSA08g00" target="_blank" class="btn-primary">Schedule a Live Demo →</a>
+        <a href="#signup" class="btn-primary">Schedule a Live Demo →</a>
       </div>
     </div>
   </div>
@@ -651,7 +650,7 @@
     <div class="testi-grid">
       <div class="testi-card fade-up fade-up-delay-1">
         <div class="stars">★★★★★</div>
-        <div class="testi-quote">"We were missing 15–20 calls a night during service. ResoAssist solved that completely. It sounds so natural our guests don't even realize it's AI."</div>
+        <div class="testi-quote">"We were missing 15–20 calls a night during service. Resoassit solved that completely. It sounds so natural our guests don't even realize it's AI."</div>
         <div class="testi-author">
           <div class="testi-avatar">🍕</div>
           <div><div class="testi-name">Marco R.</div><div class="testi-role">Owner, Osteria Milano</div><div class="testi-badge">PILOT · MUNICH</div></div>
@@ -685,7 +684,7 @@
     <div class="fade-up" style="text-align:center">
       <span class="section-tag">Product Roadmap</span>
       <h2 class="section-title">Built to run your <em>entire restaurant</em></h2>
-      <p class="section-sub" style="margin:0 auto;color:#A89E94">We're starting with AI voice — and we're not stopping there. ResoAssist is growing into the all-in-one operating system for modern restaurants.</p>
+      <p class="section-sub" style="margin:0 auto;color:#A89E94">We're starting with AI voice — and we're not stopping there. Resoassit is growing into the all-in-one operating system for modern restaurants.</p>
     </div>
 
     <div class="roadmap-timeline">
@@ -696,7 +695,7 @@
           <div class="phase-card">
             <div class="phase-badge badge-live">✅ Live Now</div>
             <h3>Phase 1 — AI Voice Agent</h3>
-            <p class="phase-desc">The foundation of ResoAssist. Your restaurant's phone is answered by an intelligent AI host 24/7 — handling bookings, orders, and guest care automatically.</p>
+            <p class="phase-desc">The foundation of Resoassit. Your restaurant's phone is answered by an intelligent AI host 24/7 — handling bookings, orders, and guest care automatically.</p>
             <ul class="phase-features">
               <li><span>📞</span><span>AI answers every inbound call instantly</span></li>
               <li><span>📅</span><span>Reservations with live calendar sync & conflict prevention</span></li>
@@ -830,8 +829,8 @@
     <div class="pricing-center fade-up fade-up-delay-2">
       <div class="price-card-single">
         <div class="early-badge">🎉 Early Access — Limited Spots</div>
-        <h3>ResoAssist Early Access</h3>
-        <p class="price-desc">Join now and be among the first restaurants to get ResoAssist. Early access members are first to unlock every new feature as we launch it — at a locked-in rate.</p>
+        <h3>Resoassit Early Access</h3>
+        <p class="price-desc">Join now and be among the first restaurants to get Resoassit. Early access members are first to unlock every new feature as we launch it — at a locked-in rate.</p>
         <div class="big-price">€120</div>
         <div class="price-per">per restaurant / month · after your free 2-week trial</div>
         <div class="price-divider"></div>
@@ -846,7 +845,7 @@
           <li><span>✓</span><span>Early access to all upcoming features (Order Mgmt, Logistics, Payroll)</span></li>
           <li><span>✓</span><span>Locked-in early adopter rate — price never increases</span></li>
         </ul>
-        <a href="https://buy.stripe.com/fZu28r71gbeC9c3bSA08g00" target="_blank" class="stripe-btn">Start Free 2-Week Trial →</a>
+        <a href="#signup" class="stripe-btn">Start Free 2-Week Trial →</a>
         <p class="price-trust">🔒 Secure payment via Stripe · Cancel anytime · No hidden fees</p>
         <div class="price-access-note">✨ Early access members get every new feature — Order Management, Logistics Intelligence, and Payroll — at no extra charge during the pilot programme.</div>
       </div>
@@ -888,25 +887,45 @@
         </ul>
       </div>
       <div class="fade-up fade-up-delay-2">
-        <div class="form-group">
-          <div class="form-row">
-            <input class="form-input" type="text" placeholder="Restaurant Name">
-            <input class="form-input" type="text" placeholder="Your Name">
+        <!-- SUCCESS STATE (hidden by default) -->
+        <div id="form-success" style="display:none;text-align:center;padding:40px 20px">
+          <div style="font-size:56px;margin-bottom:16px">🎉</div>
+          <div style="font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--cream);margin-bottom:8px">You're in!</div>
+          <div style="font-size:15px;color:#A89E94;margin-bottom:28px">Your details have been saved. Redirecting you to book your demo...</div>
+          <div style="width:48px;height:4px;background:var(--gradient-hot);border-radius:4px;margin:0 auto;animation:progress-bar 2s linear forwards"></div>
+        </div>
+        <!-- ERROR MESSAGE -->
+        <div id="form-error" style="display:none;background:rgba(255,77,109,0.15);border:1px solid rgba(255,77,109,0.3);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--coral-light);margin-bottom:16px">
+          ⚠️ Something went wrong. Please try again or email us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cea6aba2a2a18ebcabbda1afbdbda7bae0ada1a3">[email&#160;protected]</a>
+        </div>
+        <!-- THE FORM -->
+        <div id="contact-form">
+          <div class="form-group">
+            <input id="f-restaurant" class="form-input" type="text" placeholder="Restaurant Name" required>
           </div>
+          <div class="form-group">
+            <input id="f-name" class="form-input" type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input id="f-email" class="form-input" type="email" placeholder="Email Address" required>
+          </div>
+          <div class="form-group">
+            <input id="f-phone" class="form-input" type="tel" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <select id="f-locations" class="form-input" style="appearance:none">
+              <option value="" disabled selected>Number of locations</option>
+              <option>1 location</option>
+              <option>2–5 locations</option>
+              <option>6–20 locations</option>
+              <option>20+ locations</option>
+            </select>
+          </div>
+          <button id="form-btn" class="form-submit" onclick="handleFormSubmit(event)">
+            Book My Free Demo →
+          </button>
+          <p class="form-trust">🔒 Your data is secure and GDPR compliant. We never share your information.</p>
         </div>
-        <div class="form-group"><input class="form-input" type="email" placeholder="Email Address"></div>
-        <div class="form-group"><input class="form-input" type="tel" placeholder="Phone Number"></div>
-        <div class="form-group">
-          <select class="form-input" style="appearance:none">
-            <option value="" disabled selected>Number of locations</option>
-            <option>1 location</option>
-            <option>2–5 locations</option>
-            <option>6–20 locations</option>
-            <option>20+ locations</option>
-          </select>
-        </div>
-        <button class="form-submit" onclick="window.open('https://buy.stripe.com/fZu28r71gbeC9c3bSA08g00','_blank')">Book My Free Demo →</button>
-        <p class="form-trust">🔒 Your data is secure and GDPR compliant. We never share your information.</p>
       </div>
     </div>
   </div>
@@ -922,7 +941,7 @@
     <div class="faq-grid">
       <div class="faq-item fade-up fade-up-delay-1">
         <div class="faq-q">Does the AI replace my staff?</div>
-        <p class="faq-a">No — ResoAssist handles phone calls so your team can focus on delivering exceptional in-person service. Think of it as a dedicated phone receptionist that never takes a break.</p>
+        <p class="faq-a">No — Resoassit handles phone calls so your team can focus on delivering exceptional in-person service. Think of it as a dedicated phone receptionist that never takes a break.</p>
       </div>
       <div class="faq-item fade-up fade-up-delay-2">
         <div class="faq-q">How does calendar integration work?</div>
@@ -930,7 +949,7 @@
       </div>
       <div class="faq-item fade-up fade-up-delay-3">
         <div class="faq-q">Can the AI speak multiple languages?</div>
-        <p class="faq-a">Yes. ResoAssist automatically detects the caller's language and responds accordingly. We support English, German, French, Spanish, and Italian — with more being added.</p>
+        <p class="faq-a">Yes. Resoassit automatically detects the caller's language and responds accordingly. We support English, German, French, Spanish, and Italian — with more being added.</p>
       </div>
       <div class="faq-item fade-up fade-up-delay-4">
         <div class="faq-q">What if the AI can't handle a call?</div>
@@ -938,7 +957,7 @@
       </div>
       <div class="faq-item fade-up fade-up-delay-1">
         <div class="faq-q">Do we need to change our phone number?</div>
-        <p class="faq-a">Not at all. We use SIP forwarding to connect ResoAssist to your existing landline. Your restaurant number stays exactly the same — guests won't notice any difference.</p>
+        <p class="faq-a">Not at all. We use SIP forwarding to connect Resoassit to your existing landline. Your restaurant number stays exactly the same — guests won't notice any difference.</p>
       </div>
       <div class="faq-item fade-up fade-up-delay-2">
         <div class="faq-q">What's included in early access?</div>
@@ -946,7 +965,7 @@
       </div>
       <div class="faq-item fade-up fade-up-delay-3">
         <div class="faq-q">When does the free trial end?</div>
-        <p class="faq-a">Your 2-week free trial starts from the date your ResoAssist goes live in your restaurant. After that, you're billed €120/month. You can cancel before the trial ends with no charge.</p>
+        <p class="faq-a">Your 2-week free trial starts from the date your Resoassit goes live in your restaurant. After that, you're billed €120/month. You can cancel before the trial ends with no charge.</p>
       </div>
       <div class="faq-item fade-up fade-up-delay-4">
         <div class="faq-q">Is my customer data safe?</div>
@@ -961,9 +980,9 @@
   <div class="fade-up">
     <span class="section-tag" style="color:var(--coral-light)">Ready to Start?</span>
     <h2 class="section-title">Your phone. <em>Always answered.</em><br>Your restaurant. Always growing.</h2>
-    <p class="section-sub">Join the restaurants already using ResoAssist. Start free for 2 weeks — no credit card, no commitment, no stress.</p>
+    <p class="section-sub">Join the restaurants already using Resoassit. Start free for 2 weeks — no credit card, no commitment, no stress.</p>
     <div class="final-ctas">
-      <a href="https://buy.stripe.com/fZu28r71gbeC9c3bSA08g00" target="_blank" class="btn-primary">Start Free 2-Week Trial →</a>
+      <a href="#signup" class="btn-primary">Start Free 2-Week Trial →</a>
       <a href="#demo" class="btn-secondary" style="background:rgba(255,255,255,0.08);color:var(--cream);border-color:rgba(255,255,255,0.2)">Watch Live Demo</a>
     </div>
   </div>
@@ -973,7 +992,7 @@
 <footer>
   <div class="footer-grid">
     <div>
-      <div class="footer-logo">ResoAssist</div>
+      <div class="footer-logo">Resoassit</div>
       <p class="footer-tagline">The AI platform built for restaurants. Starting with voice — growing into your full operating system.</p>
       <div class="footer-socials">
         <div class="social-btn">💼</div>
@@ -1010,7 +1029,7 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2025 ResoAssist Technologies. All rights reserved.</span>
+    <span>© 2025 Resoassit Technologies. All rights reserved.</span>
     <div style="display:flex;gap:24px;align-items:center">
       <div class="gdpr-badge"><div class="gdpr-dot"></div> GDPR Compliant</div>
       <div class="gdpr-badge"><div class="gdpr-dot"></div> EU Data Storage</div>
@@ -1019,15 +1038,108 @@
   </div>
 </footer>
 
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-  }, { threshold: 0.1 });
-  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+<style>
+  @keyframes progress-bar { from{width:0} to{width:100%} }
+  .form-submit:disabled { opacity:0.7; cursor:not-allowed; transform:none !important; box-shadow:none !important; }
+  .spinner { display:inline-block; width:16px; height:16px; border:2px solid rgba(255,255,255,0.35); border-top-color:#fff; border-radius:50%; animation:spin .7s linear infinite; vertical-align:middle; margin-right:8px; }
+  @keyframes spin { to { transform:rotate(360deg); } }
+</style>
 
-  window.addEventListener('scroll', () => {
-    document.querySelector('nav').style.boxShadow = window.scrollY > 40 ? '0 2px 30px rgba(26,18,8,0.08)' : 'none';
+<script>
+(function(){
+
+  /* ─────────────────────────────────────────
+     CONFIG
+     IMPORTANT: Replace PASTE_YOUR_SUPABASE_ANON_KEY_HERE with your real
+     anon key from: Supabase dashboard → Project Settings → API → anon/public
+  ───────────────────────────────────────── */
+  var SB_URL  = 'https://ryipaehetvckxxqgbbhq.supabase.co';
+  var SB_KEY  = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ5aXBhZWhldHZja3h4cWdiYmhxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ5NjY1MzgsImV4cCI6MjA5MDU0MjUzOH0.ye2cNenS2jgCUUFDYF-VF-CD7cZ-RekeaxEjGAg28Ao';
+  var STRIPE  = 'https://buy.stripe.com/cNi7sLetIciGfAr2i008g01';
+
+  /* ─────────────────────────────────────────
+     FORM SUBMIT → save to Supabase → Stripe
+  ───────────────────────────────────────── */
+  window.handleFormSubmit = async function(e) {
+    if (e) e.preventDefault();
+
+    var restaurant = (document.getElementById('f-restaurant').value || '').trim();
+    var name       = (document.getElementById('f-name').value || '').trim();
+    var email      = (document.getElementById('f-email').value || '').trim();
+    var phone      = (document.getElementById('f-phone').value || '').trim();
+    var locations  = document.getElementById('f-locations').value || '';
+    var errBox     = document.getElementById('form-error');
+    var btn        = document.getElementById('form-btn');
+
+    errBox.style.display = 'none';
+
+    /* Validation */
+    if (!restaurant){ showErr('Please enter your Restaurant Name.'); return; }
+    if (!name)       { showErr('Please enter your Name.'); return; }
+    if (!email || !email.includes('@')){ showErr('Please enter a valid Email Address.'); return; }
+
+    /* Loading */
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span> Saving your details…';
+
+    try {
+      var res = await fetch(SB_URL + '/rest/v1/demo_leads', {
+        method: 'POST',
+        headers: {
+          'Content-Type':  'application/json',
+          'apikey':        SB_KEY,
+          'Authorization': 'Bearer ' + SB_KEY,
+          'Prefer':        'return=minimal'
+        },
+        body: JSON.stringify({
+          restaurant_name: restaurant,
+          contact_name:    name,
+          email:           email,
+          phone:           phone   || null,
+          locations:       locations || null,
+          source:          'landing_page',
+          created_at:      new Date().toISOString()
+        })
+      });
+
+      if (!res.ok) {
+        var txt = await res.text();
+        throw new Error(txt || 'HTTP ' + res.status);
+      }
+
+      /* ✅ Success */
+      document.getElementById('contact-form').style.display = 'none';
+      document.getElementById('form-success').style.display = 'block';
+      setTimeout(function(){ window.location.href = STRIPE; }, 2000);
+
+    } catch(err) {
+      console.error('Submit error:', err);
+      btn.disabled = false;
+      btn.innerHTML = 'Book My Free Demo →';
+      showErr('Something went wrong. Please try again or email hello@resoassit.com');
+    }
+
+    function showErr(msg){
+      errBox.textContent = '⚠️ ' + msg;
+      errBox.style.display = 'block';
+      errBox.scrollIntoView({ behavior:'smooth', block:'center' });
+    }
+  };
+
+  /* ─────────────────────────────────────────
+     SCROLL ANIMATIONS
+  ───────────────────────────────────────── */
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.fade-up').forEach(function(el){ io.observe(el); });
+
+  window.addEventListener('scroll', function(){
+    document.querySelector('nav').style.boxShadow =
+      window.scrollY > 40 ? '0 2px 30px rgba(26,18,8,0.08)' : 'none';
   });
+
+})();
 </script>
 </body>
 </html>
