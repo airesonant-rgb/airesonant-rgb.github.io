@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -915,7 +915,6 @@ footer { padding: 40px 24px; }
         </div>
         <!-- ERROR MESSAGE -->
         <div id="form-error" style="display:none;background:rgba(255,77,109,0.15);border:1px solid rgba(255,77,109,0.3);border-radius:12px;padding:14px 16px;font-size:14px;color:var(--coral-light);margin-bottom:16px">
-          ⚠️ Something went wrong. Please try again or email us at <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="cea6aba2a2a18ebcabbda1afbdbda7bae0ada1a3">[email&#160;protected]</a>
         </div>
         <!-- THE FORM -->
         <div id="contact-form">
@@ -934,10 +933,10 @@ footer { padding: 40px 24px; }
           <div class="form-group">
             <select id="f-locations" class="form-input" style="appearance:none">
               <option value="" disabled selected>Number of locations</option>
-              <option>1 location</option>
-              <option>2–5 locations</option>
-              <option>6–20 locations</option>
-              <option>20+ locations</option>
+              <option value="1">1 location</option>
+              <option value="3">2–5 locations</option>
+              <option value="10">6–20 locations</option>
+              <option value="25">20+ locations</option>
             </select>
           </div>
           <button id="form-btn" class="form-submit" onclick="handleFormSubmit(event)">
@@ -1072,8 +1071,6 @@ footer { padding: 40px 24px; }
 
   /* ─────────────────────────────────────────
      CONFIG
-     IMPORTANT: Replace PASTE_YOUR_SUPABASE_ANON_KEY_HERE with your real
-     anon key from: Supabase dashboard → Project Settings → API → anon/public
   ───────────────────────────────────────── */
   var SB_URL  = 'https://izuvnhwssubgdsoerych.supabase.co';
   var SB_KEY  = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml6dXZuaHdzc3ViZ2Rzb2VyeWNoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzUzMDUzNjgsImV4cCI6MjA5MDg4MTM2OH0.ICFpRZ-K1TgHC9gjgZxts89KtcWAuzWwejZqjCgrr0E';
@@ -1102,9 +1099,23 @@ footer { padding: 40px 24px; }
 
     /* Loading */
     btn.disabled = true;
-    btn.innerHTML = '<span class="spinner"></span> Saving your details…';
+    btn.innerHTML = '<span class="spinner"></span> Saving your details\u2026';
 
     try {
+      /* Payload matching exact leads table columns */
+      var payload = {
+        restaurant_name:  restaurant,
+        contact_name:     name,
+        email:            email,
+        phone:            phone || null,
+        number_of_locations: locations ? parseInt(locations) || null : null,
+        lead_source:      'landing_page',
+        status:           'new',
+        gdpr_consent:     true,
+        gdpr_consent_at:  new Date().toISOString(),
+        created_at:       new Date().toISOString()
+      };
+
       var res = await fetch(SB_URL + '/rest/v1/leads', {
         method: 'POST',
         headers: {
@@ -1113,15 +1124,7 @@ footer { padding: 40px 24px; }
           'Authorization': 'Bearer ' + SB_KEY,
           'Prefer':        'return=minimal'
         },
-        body: JSON.stringify({
-          restaurant_name: restaurant,
-          contact_name:    name,
-          email:           email,
-          phone:           phone   || null,
-          locations:       locations || null,
-          source:          'landing_page',
-          created_at:      new Date().toISOString()
-        })
+        body: JSON.stringify(payload)
       });
 
       if (!res.ok) {
@@ -1129,7 +1132,7 @@ footer { padding: 40px 24px; }
         throw new Error(txt || 'HTTP ' + res.status);
       }
 
-      /* ✅ Success */
+      /* SUCCESS */
       document.getElementById('contact-form').style.display = 'none';
       document.getElementById('form-success').style.display = 'block';
       setTimeout(function(){ window.location.href = STRIPE; }, 2000);
@@ -1137,12 +1140,12 @@ footer { padding: 40px 24px; }
     } catch(err) {
       console.error('Submit error:', err);
       btn.disabled = false;
-      btn.innerHTML = 'Book My Free Demo →';
-      showErr('Something went wrong. Please try again or email hello@resoassit.com');
+      btn.innerHTML = 'Book My Free Demo \u2192';
+      showErr('Something went wrong saving your details. Please email hello@resoassit.com');
     }
 
     function showErr(msg){
-      errBox.textContent = '⚠️ ' + msg;
+      errBox.innerHTML = '\u26a0\ufe0f ' + msg;
       errBox.style.display = 'block';
       errBox.scrollIntoView({ behavior:'smooth', block:'center' });
     }
