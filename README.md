@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Resoassit — AI Platform for Restaurants</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&fam>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&fam">
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -885,7 +885,7 @@
         <h2 class="section-title">Start your <em>free trial</em> today</h2>
         <p class="section-sub">Join our early access programme. First 2 weeks completely free, then just €120/month. We set everything up — no tech skills needed.</p>
         <ul class="lead-features">
-          <li><span>✅</span> 2-week free trial — no credit card to start</li>
+          <li><span>✅</span> 2-week free trial — 1€ for verification to start </li>
           <li><span>✅</span> Setup completed within 48 hours</li>
           <li><span>✅</span> Personal onboarding call included</li>
           <li><span>✅</span> Early access to all upcoming features</li>
